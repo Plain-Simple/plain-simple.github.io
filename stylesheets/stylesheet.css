@@ -203,23 +203,30 @@ a {
   background-color: #eff0f1;
   border: 0; }
 
-.menu ul li {
+.menu ul {
   list-style-type: none;
-  display: inline; }
-.menu li a {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+.menu li {
+  float: left; }
+.menu a:link, a:visited {
   display: block;
-  text-decoration: none;
-  padding: 3px 5%;
-  float: left;
+  width: 12.5rem;
   color: #404040;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: center;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
   -ms-transition: background-color 0.3s;
   transition: background-color 0.3s; }
-.menu li a:hover {
+.menu li a:hover, a:active {
   border-color: transparent;
-  background-color: #44AD79;
+  background-color: #77C39D;
   /*box-shadow: 0 0 0 2px black; */}
 
 @media screen and (min-width: 64em) {
