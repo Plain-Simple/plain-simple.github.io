@@ -1,84 +1,17 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Plain and Simple</title>
-  <meta name="description" content="We make apps, Plain and Simple">
-
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://plain-simple.github.io/blog/">
-  <link rel="alternate" type="application/rss+xml" title="Plain and Simple" href="http://plain-simple.github.io/feed.xml" />
-
-  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
-</head>
-
-
-  <body>
-
-    <div class="site-header">
-
-    <nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">Home</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-       <li> <a href="/blog/">What's New</a></li>
-       <li> <a href="/releases/">Releases</a></li>
-       <li> <a href="/releases/">About</a></li>
-       <li> <a href="/support-us/">Support Us</a></li>
-      </ul>
-    </div>
-  </nav>
-
-    <h1>
-     <span>
-      <a class="site-title" href="/">Plain and Simple</a>
-     </span>
-    </h1>
-</div>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
+<div class="home">
 
   <h1 class="page-heading">Blog</h1>
 
   <ul class="post-list">
-    
+    {% for post in site.posts %}
       <li>
-        <!-- <span class="post-meta">May 25, 2015</span> -->
-        <a class="post-link" href="/2015/05/25/hello.html">Hello, User!</a>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
-    
-      <li>
-        <!-- <span class="post-meta">May 25, 2015</span> -->
-        <a class="post-link" href="/2015/05/25/formatting-samples.html">Formatting Samples</a>
-      </li>
-    
+    {% endfor %}
   </ul>
 </div>
-
-      </div>
-    </div>
-
-    <div class="footer" align="center">
-
-  Designed by <a href=http://diezcami.github.io target="_blank">Camille Diez</a><BR />
-  Powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
-
-</div>
-
-
-  </body>
-
-</html>
