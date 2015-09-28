@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /home/
 ---
 
 ### Welcome to Plain Simple
