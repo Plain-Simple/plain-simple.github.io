@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Plain and Simple was founded by [Stefan](http://github.com/Stefan4472), [Matt](http://github.com/UnsolvedCypher), and [Derik](http://github.com/Derikk)
-Github: http://github.com/plain-simple
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+
+You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
