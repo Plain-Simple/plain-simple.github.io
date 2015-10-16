@@ -6,7 +6,8 @@ categories: update
 ---
 Welcome to Plain Simple Apps!  
 
-We are currently working on an array of projects:  
+We are currently working on an array of projects:
+
 - The Plain Simple website: We're chipping away at this and hope to have it ready by November 1st. Things left to do include some small CSS stuff, getting some releases up, and working on the Support Us page.  
 - Coding Reference Docs: We're working on writing documentation for various programming/coding topics. This is a more long-term project. Current docs we are working on include a Java reference, a C++ reference, and a Git reference. We may also write a regex and HTML/CSS reference.  
 - Coding and Contribution Guidelines: We're finalizing Java coding guidelines and will get to work on contribution guidelines very soon.  
