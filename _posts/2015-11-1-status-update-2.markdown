@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Status Update #2: Android, Announcer, and Website"
+date:   2015-11-1 10:45:03
+categories: update
+---
 It's been a difficult few weeks with lots of homework and college applications. We haven't been able to get as much as we wanted
 to done. Nevertheless we've made a lot of progress porting the Spaceships game to Android, using an Android for Dummies book as
 a reference. This is our first Android project so we're doing a lot of learning! We've also reached out to graphics and sound
